@@ -40,7 +40,7 @@ makeCacheMatrix <- function(x = matrix()) {
     setSolve <- function(solve) {
         solveMatrix <<- solve
     } 
-    
+
     ## Get solveMatrix cached from envioronment.
     getSolve <- function() solveMatrix
     
